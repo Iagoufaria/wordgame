@@ -1,0 +1,28 @@
+button {
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: rgb(0, 255, 21);
+  width: 270px;
+  height: 60px;
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.1);
+  border-style: none;
+}
+
+
+#root {
+  text-align: center;
+  background: linear-gradient(145deg, #0f3460, #16213e);
+  padding: 0px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  max-width: 2000px;
+  margin: auto;
+  
+}
+
+

@@ -1,0 +1,63 @@
+.wordContainer {
+  margin: 1.5em;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.letter, 
+.blankSquare {
+  font-size: 70px;
+  line-height: 1.5;
+  height: 100px;
+  width: 100px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  
+  
+  
+}
+
+
+.points {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+h1 {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 2px 2px 4px black;
+}
+
+.tip, .letterContainer > p {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.letterContainer > form > input{
+  height: 60px;
+  width: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+form {
+  display: inline-flex;
+  align-items: center;
+}
+
+.wrongLettersContainer {
+  color: #fff;
+  font-weight: bold;
+}
+
